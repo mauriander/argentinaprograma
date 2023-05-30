@@ -13,3 +13,4 @@ num1=-1.2;
 num2=5.3;
 num3=-3.3;
 console.log("El promedio de los numeros "+ num1+" "+num2+" "+num3+" es igual a:"+ (num1+num2+num3)/3 )
+//realizao un cambio porque me saltie un paso
