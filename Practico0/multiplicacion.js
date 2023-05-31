@@ -1,7 +1,7 @@
 let a;
 let b;
-console.log("Ingrese el primer numero, Minuendo");
-
-console.log("Ingrese el segundo numero, Sustraendo");
-
-console.log(a*b);
+let c;
+a=2;
+b=17;
+c=6;
+console.log("La multiplicacion de "+ a +" multiplicado por "+ b +" multiplicado por "+ c +" es: "+ (a*b*c));//204
