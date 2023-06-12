@@ -1,0 +1,13 @@
+
+
+let cadena = "Hola Pepe, soy Juan";
+let arreglo = cadena.split(' ');
+console.log(arreglo);
+
+//
+let cadena2="Hola Mundo";
+ let cadena2min = cadena2.toLowerCase();
+ console.log(cadena2.toLowerCase());
+ console.log(cadena2.toUpperCase());
+
+
