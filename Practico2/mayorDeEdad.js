@@ -8,14 +8,14 @@ if(edad >17){
    console.log("Eres menor de Edad");
 }
 
-if(edad>0){
-    console.log("El numero es positivo");
-}  else if(edad<0){
-    console.log("El numero es negativo");
-        }
-        else{console.log("El numero es cero");}
+// if(edad>0){
+//     console.log("El numero es positivo");
+// }  else if(edad<0){
+//     console.log("El numero es negativo");
+//         }
+//         else{console.log("El numero es cero");}
 
-//console.log("La edad ingresada fue " + edad);
+
 
 
 
