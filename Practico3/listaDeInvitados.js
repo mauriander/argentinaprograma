@@ -32,12 +32,26 @@ for (let i = 0; i < largo; i++) {
 a. Para la lista de invitados admitidos deberás imprimir por consola un mensaje inicial que dirá: “La lista de invitados admitidos es:”, seguido por tantos párrafos como tenga el arreglo admitidos conteniendo los respectivos nombres de los invitados.
 b. Para la lista de invitados rechazados deberás imprimir por consola un mensaje inicial que dirá: "La lista de invitados rechazados es:”, seguido por tantos párrafos como tenga el arreglo rechazados conteniendo los respectivos nombres de los invitados.
 */
-console.log("La lista de invitados admitidos es :");
+console.log("\n La lista de invitados admitidos es :");
 for (let i = 0; i < admitidos.length; i++) {
   console.log(admitidos[i]);
 }
 
-console.log("La lista de invitados rechazados es :");
+console.log("\n La lista de invitados rechazados es :");
 for (let i = 0; i < rechazados.length; i++) {
   console.log(rechazados[i]);
 }
+console.log("\n La lista de invitados admitidos ordenados es: ");
+let admitidosordenada =[];
+admitidosordenada=admitidos.sort();  
+for(let i = 0; i<admitidosordenada.length; i++){
+  console.log(admitidosordenada[i]);
+  
+  }    
+  let rechazadosordenada =[];
+  rechazadosordenada=rechazados.sort();  
+  console.log("\n La lista de invitados rechazados ordenados es: ");
+  for(let i = 0; i<rechazadosordenada.length; i++){
+    console.log(rechazadosordenada[i]);
+    
+    }    
