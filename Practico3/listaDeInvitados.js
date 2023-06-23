@@ -55,3 +55,4 @@ for(let i = 0; i<admitidosordenada.length; i++){
     console.log(rechazadosordenada[i]);
     
     }    
+    //PRACTICO N3 FINALIZADO
